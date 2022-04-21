@@ -1,0 +1,60 @@
+.numb  input
+{
+    padding:2px;
+    margin-left:100px;
+    position:absolute;
+    padding:4px 4px;
+     width:20%;
+    height:10vh; 
+    background-color: aquamarine;
+}
+
+.numb2 input
+{
+    padding:2px;
+    margin-left:100px;
+    margin-top: 70px;
+    position:relative;
+    padding:4px 4px;
+     width:20%;
+    height:10vh; 
+    background-color: aquamarine;
+}
+
+
+
+#abc
+{
+    position: relative;
+    padding: 10px;
+    left:40px;
+    top:50px;
+    background-color:yellow;
+}
+
+#def
+{
+    position: relative;
+    padding: 10px;
+    left:4px;
+    top:50px;
+    background-color:yellow;
+}
+
+#fgh
+{
+    position: relative;
+    padding: 10px;
+    left:4px;
+    top:50px;
+    background-color:yellow;
+}
+
+#ijk
+{
+    position: relative;
+    padding: 10px;
+    left:4px;
+    top:50px;
+    background-color:yellow;
+}

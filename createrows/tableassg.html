@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./tableassg.css">
+</head>
+<body>
+    <div class="method">
+   <table border="">
+       <tr>
+           <th>Name</th>
+           <td><input type="text" name=name id="fname"></td>
+       </tr>
+       <tr>
+        <th>Designation</th>
+        <td><input type="text" name="desig" id="desig"></td>
+    </tr>
+
+    <tr id="btna">
+<td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+    </tr>
+
+    <tr id="btna2">
+        <td colspan="2"><input type="button" name="button1" id="btn1" value="Delete" onclick="DeleteRow()"></td>
+            </tr>
+ </table>
+</div>
+
+<div class="row">
+ <table border="" id="show">
+     <tr>
+         <th>Name</th>
+         <th>Designation</th>
+         
+     </tr>
+ </table>
+ </div>
+    
+<script src="./tableass.js"></script>   
+</body>
+</html>

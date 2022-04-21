@@ -1,0 +1,59 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img
+{
+    height: 40vh;
+    width:90%;
+    margin-top:10px;
+
+}
+
+#tripblock
+{
+   display: flex;
+   justify-content: space-between;
+   text-align:center;
+   padding: 100px;
+   color:black;
+   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+   animation-name: example;
+  animation-duration: 10s;
+   
+}
+.tripContainer
+{
+    margin: 20px;
+    
+    height: 70vh;
+    width: 40%;
+    /* border: 2px solid black; */
+    box-shadow: 0 0 10px 10px darkblue;
+    
+}
+
+ .tripContainer:hover
+{
+    transform: translate(50px, 100px);
+    transform: rotate(-20deg);
+} 
+
+@keyframes example {
+    from {background-color:blue;}
+    to {background-color:orangered;}
+  }
+
+
+
+
+  
+
+.tripContainer p
+{
+    color:black;
+    text-align:"justify";
+}
